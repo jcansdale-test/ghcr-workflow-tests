@@ -1,5 +1,6 @@
 on:
   push:
+  release:
 
 env:
   IMAGE: ghcr.io/${{ github.repository }}:latest
